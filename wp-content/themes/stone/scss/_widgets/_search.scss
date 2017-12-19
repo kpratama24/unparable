@@ -1,0 +1,44 @@
+
+.search-form { position: relative; }
+
+.search-form input[type="search"] {
+	float: left;
+	border: none;
+	cursor: pointer;
+	width: 1px;
+	height: 38px;
+	margin: 2em 0 0 0;
+	//padding: 0 0 0 35px;
+	position: relative;
+
+	background-color: $col-page-bg;
+	border: 2px solid $col-border-dark;
+	cursor: text;
+	outline: 0;
+	width: 100%;
+	max-width: 20em;
+	
+}
+
+/* Make the submit button appear when the input field is focussed */
+.search-field:focus + input[type="submit"] {
+	display: block;
+	margin-top: 1em;
+	float: left;
+	clear: left;
+		
+	// Undo the .screen-reader-text stuff
+	position: relative !important;
+	overflow: visible;
+	width: auto;
+	height: auto;
+}
+
+/* 
+Prevent the search button appearing at the top of the page if :focus moves 
+away from the search input field.
+*/
+.search-form .screen-reader-text:focus {
+	top: 6em;
+	left: 0;
+}

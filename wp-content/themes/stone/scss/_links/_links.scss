@@ -1,0 +1,68 @@
+
+a {
+	position: relative;
+	text-decoration: none;
+	padding: 0 0.1em;
+	border-bottom: 1px solid $col-text;
+	color: $col-text;
+	
+	&:hover {
+		border-bottom: 1px solid $col-link-text-hover;
+		background: $col-link-text-hover;
+		color: #fff;
+	}
+	
+	&:active {
+		top: 1px;
+	}
+
+	&:focus {
+		outline: 2px dashed  $col-link-text-focus;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+	
+	
+	#masthead &,
+	.nav-menu li &,
+	.entry-header & {
+		border-bottom: none;
+	}		
+}
+
+.more-link,
+.button {
+	display: inline-block;
+	margin: 0.5em 0 1em 0;
+	padding: 0.7em 2em;
+
+	@include font-size(0.875);
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+	background: $col-button-bg;
+	border-bottom: none;
+	color: $col-button-text;
+	
+
+	/* The hover effect when mousing over */
+	-moz-transition: all 0.9s ease-in-out;
+	-ms-transition: all 0.9s ease-in-out;
+	-o-transition: all 0.9s ease-in-out;
+	-webkit-transition: all 0.9s ease-in-out;
+	transition: all 0.9s ease-in-out;	
+
+	.entry-content &:visited {
+		color: $col-button-text;
+	}
+
+	&:hover {
+		background: $col-theme;
+		border-bottom: none;
+		color: $col-button-text;
+	}
+}

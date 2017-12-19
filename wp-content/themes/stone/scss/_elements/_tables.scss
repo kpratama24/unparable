@@ -1,0 +1,37 @@
+
+table {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	border-bottom: 1px solid $col-border;
+}
+
+caption {
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-bottom: 1em;
+}
+
+th,
+td {
+	font-weight: 400;
+	padding: 0.5em 1em;
+	border-width: 0 1px 1px 0;
+	border-color: $col-border;
+}
+
+th {
+	@include font-size(0.875);
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+td {
+	border-top: 1px solid $col-border; 
+	font-weight: 600;
+}

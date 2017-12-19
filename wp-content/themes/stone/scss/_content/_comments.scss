@@ -1,0 +1,43 @@
+
+/* General comment related stuff */
+.comments-area {
+	width: 100%;
+	float: left;
+	background: $col-comments-bg;	
+}
+
+.comments-title,
+.comment-list,
+.no-comments,
+.comment-respond {
+	@include wrapper(700px);
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+
+/* The comment */
+.comment,
+.pingback {
+	width: 100%;
+	float: left;
+	padding: 2em 0;
+	border-bottom: 1px solid darken($col-border, 15%);
+
+	&.byuser, 
+	&.bypostauthor {
+		padding-left: 1em;
+		border-left: 5px solid darken($col-border, 15%);
+	}
+}
+
+.comment-avatar {
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+
+.comment-header,
+.comment-content {
+	float: right;
+	width: 75%;
+}

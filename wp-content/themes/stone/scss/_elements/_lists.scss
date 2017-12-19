@@ -1,0 +1,46 @@
+
+ul,
+ol {
+	list-style: none;
+	margin: 0 0 1.5em 2em;
+	
+	nav & { margin: 0; }
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin: 0 0 0 2em;
+
+	nav & { margin: 0; }
+}
+
+dl {
+	margin-bottom: 1.5em;
+}
+
+dt {
+	font-weight: 800;
+	letter-spacing: 0.5px;
+}
+
+dd {
+	margin-bottom: 1.5em;
+}
+
+@media screen and ( min-width: 800px ) {
+		
+	li,
+	dt, 
+	dd {
+		@include font-size(1.125);
+	}
+}
+

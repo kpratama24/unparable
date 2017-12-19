@@ -1,0 +1,114 @@
+
+/* Structure
+ * ------------------------------------------------------------- */
+
+article.post { @include wrapper(); }
+article.page { @include wrapper(700px); }
+
+.list-view .format-standard,
+.list-view .format-gallery,
+.list-view .format-image,
+.list-view .format-video {
+	
+	.entry-header,
+	.entry-content {
+		@include wrapper(700px);
+	}
+}
+
+.list-view .format-audio,
+.list-view .format-chat,
+.list-view .format-link,
+.list-view .format-quote,
+.list-view .format-status {
+	.entry-header {
+		@include wrapper(700px);
+	}
+}
+
+.list-view .format-audio .entry-content,
+.list-view .format-chat .entry-content,
+.list-view .format-link .entry-content,
+.list-view .format-quote .entry-content,
+.list-view .format-status .entry-content {
+	@include wrapper(900px);
+}
+
+// Singular post widths and bottom margin
+.singular {	
+	.attachment,
+	.post { @include wrapper(700px); }
+	
+	.entry-content { margin-bottom: 2.5em; }
+}
+
+/* Bottom line between posts on list-view
+ * ------------------------------------------------------------- */
+
+.front-page .post:after,
+.list-view .post:after,
+.list-view .page:after {
+	content: "";
+	display: block;
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 5em;
+	border-bottom: 2px solid $col-border;
+}
+
+.front-page .post:nth-of-type(n+2),
+.list-view .post:nth-of-type(n+2),
+.list-view .page:nth-of-type(n+2) {
+	padding: 4em 0 1em 0;
+}
+
+/* Sticky posts
+ * ------------------------------------------------------------- */
+
+
+.sticky {
+	display: block;
+	margin-bottom: 2em;
+	padding: 4em 2em 0 2em;
+	background: $col-sticky-bg;
+	
+	.list-view &:after {
+		border-bottom: none;
+	}
+}
+
+.ie .list-view .post {
+	padding: 4em 0 1em 0;
+}
+
+.ie .list-view .post.sticky {
+	padding: 4em 2em 0 2em;
+}
+
+
+/* Post thumbnail
+ * ------------------------------------------------------------- */
+ 
+/*
+@media screen and ( min-width: 800px ) {
+	
+	.list-view .jetpack-portfolio.has-post-thumbnail {
+	
+		.entry-image {
+			width: 45%;
+			float: left;
+			
+			img {
+				margin-top: 10%;
+			}
+		}
+	
+		.content-container {
+			width: 45%;
+			float: left;
+			margin: 0 5%;
+		}	
+	}		
+}
+
+*/

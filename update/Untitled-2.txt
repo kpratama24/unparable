@@ -1,0 +1,7 @@
+Update:
+ACL Mahasiswa dan Staff
+Login Page
+Update Profile agama hindu
+Update prestasi sertifikat (link parse dari database, gambarnya mau diletakkan dimana ? hosting atau CDN ?)
+Bisa edit dan hapus prestasi
+ga ada ACL Staff

@@ -1,0 +1,54 @@
+.widget_calendar {
+	
+	table {
+		border-bottom: none;
+	}
+	
+	caption {
+		@include title-font();
+		@include font-size(1);
+		text-transform: uppercase;
+		color: $col-text;
+		margin-bottom: 1.5em;	
+	}
+	
+	thead th,
+	tbody td {
+		text-align: center;	
+	}
+
+	th,
+	td {
+		@include font-size(0.875);
+		padding-right: 1%;
+		padding-left: 1%;
+	}
+	
+	td {
+		border-top: 1px solid darken($col-border, 40%);
+		//color: lighten($col-text, 10%);
+		
+		&:hover { 
+			background: $col-theme; 
+			color: $col-text-reverse;
+		}
+	}
+	
+	tbody td a {
+		font-weight: 800;
+		letter-spacing: 1px;
+		border-bottom: none;
+		color: $col-text;
+	}
+		
+	tfoot td a {
+		text-transform: uppercase;
+		border-bottom: none;
+		font-weight: 800;
+		letter-spacing: 1px;
+	}
+	
+	#next {
+		text-align: right;
+	}	
+}

@@ -1,0 +1,65 @@
+
+.archive-header {
+	@include wrapper(700px);
+	margin-top: 1em;
+	margin-bottom: 3.5em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid $col-border;
+	overflow: hidden;
+}
+
+.archive-title,
+.taxonomy-description { 
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.archives-content {
+	@include wrapper ();
+	margin-bottom: 2em;
+	overflow: hidden;
+
+	ul {
+		@include no-bullets();
+		margin: 0;
+		width: 100%;
+	}
+	
+	&:after {
+		content: '';
+		clear: both;
+		display: block;
+		width: 25%;
+		margin: 0 auto;
+		padding-top: 5em;
+		border-bottom: 2px solid $col-border;
+	}
+}
+
+
+@media screen and ( min-width: 600px ) {
+	
+	
+	.archives-content ul li {
+		width: 40%;
+		float: left;
+		margin-right: 10%;
+	}
+}
+
+@media screen and ( min-width: 700px ) {
+	
+	
+	.archives-content ul li {
+		width: 23%;
+	}
+}
+
+@media screen and ( min-width: 800px ) {
+	
+	
+	.archives-content ul li {
+		width: 22%;
+		margin-right: 3%;
+	}
+}

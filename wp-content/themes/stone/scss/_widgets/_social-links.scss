@@ -1,0 +1,60 @@
+
+.widget_social_links {
+
+	ul {
+		@include no-bullets();
+		margin: 0;
+		padding: 0;
+	}
+	
+	li {
+		float: left;
+		&:hover { background: none !important; }
+	}
+	
+	a {
+		display: block;
+		float: left;
+		width: 2em;
+		height: 2em;
+		margin: 0 0.7em 0.7em 0;
+		background: $col-primary-widgets-bg;
+		border-radius: 50%;
+				
+		&:hover {
+			background: $col-theme;
+			border-bottom: none;
+			
+			&:before { color: $col-text-reverse; }
+		}
+		
+		&:before {
+			float: left;	
+			position: relative;
+			top: 3px;
+			left: 21%;
+			right: 21%;
+			display: inline-block;
+			font-family: Genericons;
+			@include font-size(1.2);
+			color: $col-text;
+		}
+	}
+
+	.codepen a:before { content: '\f216'; }
+	.dribbble a:before { content: '\f201'; }
+	.facebook a:before { content: '\f204'; }
+	.flickr a:before { content: '\f211'; }
+	.github a:before { content: '\f200'; }
+	.googleplus a:before { content: '\f218'; }
+	.instagram a:before { content: '\f215'; }
+	.linkedin a:before { content: '\f207'; }
+	.pinterest a:before { content: '\f210'; }
+	.tumblr a:before { content: '\f214'; }
+	.twitter a:before { content: '\f202'; }
+	.vimeo a:before { content: '\f212'; }
+	.youtube a:before { content: '\f213'; }
+
+}
+
+

@@ -1,0 +1,83 @@
+
+/* General comment related stuff */
+.comments-title,
+.comment-reply-title {
+	@include font-size(1.25);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 1.5em;
+	padding-top: 2.5em;
+}
+
+.no-comments {
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;	
+	letter-spacing: 1px;
+	margin-bottom: 3em;
+}
+
+
+/* Comment list */
+.comment-list,
+.comment-list .children {
+	@include no-bullets();
+	margin: 0 0 3em 1em;
+}
+
+/* The comment */
+.comment-header h3 {
+	@include font-size(1.125);
+	font-weight: 600;
+	letter-spacing: normal;
+	
+	a {
+		border-bottom: none;
+	}
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.comment-reply-link {
+	@include font-size(0.875);
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* Respond to post */
+.comment-respond {
+	margin-bottom: 3em;
+}
+
+.comment-reply-title {
+	a {
+		font-weight: 600;
+		border-bottom: none;
+	}	
+	
+	small a {
+		display: block;
+		color: lighten($col-text, 30%);
+		
+		&:hover {
+			color: $col-theme;
+		}
+	}
+}
+
+.logged-in-as,
+.comment-notes,
+.form-allowed-tags {
+	@include font-size(0.875);
+	
+	code {
+		display: block;
+		margin: 0.5em 0;
+		@include font-size(0.875);
+	}
+}
+
+

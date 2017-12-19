@@ -1,0 +1,159 @@
+/*
+Theme Name: Stone
+Theme URI: http://www.jokedewinter.co.uk/themes/stone/
+Author: Joke De Winter Ltd
+Author URI: http://www.jokedewinter.co.uk
+Description: Stone is a responsive blogging theme with minimal clean design and a focus on big bold type. It has very little colour on purpose. It is designed to make your content stand out by itself. Stone has support for featured images, post formats and Jetpack Portfolio and Testimonial content types. It includes easy integration for a range of social media profiles. It is translation ready and includes language files for English (default), Dutch and French. The theme is compatible with popular plugins Contact Form 7 and Jetpack. Stone Pro is a paid version with a choice of different page templates, typefaces and more.
+Version: 1.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: accessibility-ready, one-column, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: stone
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/**
+ * ------------------------------------------------------------- 
+ * TABLE OF CONTENTS:
+ * ------------------------------------------------------------- 
+
+ 1.0 - Reset
+ 2.0 - Site settings
+ 3.0 - Typography
+ 4.0 - Elements
+ 5.0 - Links
+ 6.0 - Forms
+ 7.0 - Media
+		 - Images
+		 - Alignments
+		 - Captions
+		 - Galleries
+		 - Video
+		 - Audio
+ 8.0 - Accessibility
+ 9.0 - Header
+10.0 - Navigation
+11.0 - Content
+		- Posts and Pages
+		- Post formats
+		- Comments
+		- Templates
+12.0 - Sidebar
+13.0 - Widgets
+14.0 - Footer
+15.0 - Jetpack
+
+ */
+
+
+@import "_init/colors";
+@import "_init/mixins";
+@import "_init/fonts";
+
+/**
+ * ------------------------------------------------------------- 
+ * 1.0 - Reset
+ * ------------------------------------------------------------- */
+@import "_init/reset";
+
+/**
+ * ------------------------------------------------------------- 
+ 2.0 - Site settings
+ * ------------------------------------------------------------- */
+
+@import "_site/site";
+
+/**
+ * ------------------------------------------------------------- 
+ 3.0 -Typography
+ * ------------------------------------------------------------- */
+
+@import "_typography/typography";
+
+/**
+ * ------------------------------------------------------------- 
+ 4.0 - Elements
+ * ------------------------------------------------------------- */
+
+@import "_elements/elements";
+
+/**
+ * ------------------------------------------------------------- 
+ 5.0 - Links
+ * ------------------------------------------------------------- */
+
+@import "_links/links";
+
+/**
+ * ------------------------------------------------------------- 
+ 6.0 - Forms
+ * ------------------------------------------------------------- */
+
+@import "_forms/forms";
+
+/**
+ * ------------------------------------------------------------- 
+ 7.0 - Media
+ * ------------------------------------------------------------- */
+
+@import "_media/media";
+
+/**
+ * ------------------------------------------------------------- 
+ 8.0 - Accessibility
+ * ------------------------------------------------------------- */
+ 
+@import "_site/accessibility";
+
+/**
+ * ------------------------------------------------------------- 
+ 9.0 - Header
+ * ------------------------------------------------------------- */
+
+@import "_header/header";
+
+/**
+ * ------------------------------------------------------------- 
+10.0 - Navigation
+ * ------------------------------------------------------------- */
+
+@import "_navigation/navigation";
+
+/**
+ * ------------------------------------------------------------- 
+11.0 - Content
+ * ------------------------------------------------------------- */
+
+@import "_content/posts";
+@import "_content/comments";
+@import "_content/template-archive";
+
+/**
+ * ------------------------------------------------------------- 
+12.0 - Sidebar
+ * ------------------------------------------------------------- */
+
+@import "_sidebar/sidebar";
+
+/**
+ * ------------------------------------------------------------- 
+13.0 - Widgets
+ * ------------------------------------------------------------- */
+
+@import "_widgets/widgets";
+
+/**
+ * ------------------------------------------------------------- 
+14.0 - Footer
+ * ------------------------------------------------------------- */
+
+@import "_footer/footer";
+
+/**
+ * ------------------------------------------------------------- 
+15.0 - Jetpack
+ * ------------------------------------------------------------- */
+
+@import "_plugins/jetpack";
+@import "_plugins/contactform7";

@@ -1,0 +1,83 @@
+
+blockquote,
+q {
+	margin: 1em 0 0 0;
+	-webkit-hyphens: none;
+	-moz-hyphens:    none;
+	-ms-hyphens:     none;
+	hyphens:         none;
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+blockquote p {
+	@include font-size(1.5);
+	font-weight: 400;
+	line-height: 1.5;
+	padding-left: 2em;
+}
+
+blockquote:before {
+	content: '\f106';
+	float: left;
+	text-align: center;
+	position: relative;
+	top: -0.4em;
+	display: inline-block;
+	font-family: Genericons;
+	@include font-size(2.5);
+	vertical-align: top;
+	color: $col-post-icon;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	@include font-size(1);
+	padding: 0.5em 0;
+}
+
+cite:before {
+	content: "\2014 \0020"; 
+}
+
+blockquote cite a, 
+blockquote cite a:visited, 
+blockquote cite a:visited {
+	border-bottom: none;
+	color: $col-link-text; 
+}      
+
+blockquote em,
+blockquote i,
+cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 600;
+}
+
+/* If the quote is short than anything following the blockquote needs to be cleared. */
+blockquote + * {
+	clear: both;
+}
+
+@media screen and ( min-width: 600px ) {
+
+	blockquote:before {
+		@include font-size(5);
+	}
+	
+	blockquote p {
+		padding-left: 4em;
+	}
+}

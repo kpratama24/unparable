@@ -1,0 +1,97 @@
+
+/* Site info
+ * ------------------------------------------------------------- */
+
+.site-info {
+	clear: both;
+	@include wrapper();
+	padding: 1.5em 0;	
+}
+
+.site-info p {
+	@include font-size(0.75);
+	margin-bottom: 0;
+	color: $col-text-footer;
+	
+	a {	
+		font-weight: 600;
+		border-bottom: none;
+		color: $col-text-footer; 
+	}
+	
+	a:hover { color: $col-text-reverse; }
+}
+
+/* Colophon credits
+ * ------------------------------------------------------------- */
+
+.colophon-credits {
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+@media screen and ( min-width: 800px ) {
+
+	.colophon-credits {
+		width: 25%;
+		float: left;
+	}
+	
+}
+
+/* Colophon menu
+ * ------------------------------------------------------------- */
+
+.colophon-menu {
+	width: 100%;
+	margin-bottom: 2em;
+
+	ul {
+		@include no-bullets();
+		margin-left: 0;
+		float: left;
+	}
+	
+	li {
+		float: left;
+		margin-bottom: 0.7em;
+		line-height: 1;
+		
+		&:after {
+			content: '/';
+			padding: 0 0.5em;
+			color: $col-text-footer;
+		}
+		
+		&:last-of-type:after { 
+			content: ''; 
+			padding: 0;
+		}
+	}
+		
+	a {
+		@include font-size(0.75);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border-bottom: none;
+		color: $col-text-footer;
+		padding: 0.3em;
+		
+		&:hover {
+			background-color: $col-theme;
+			color: $col-text-reverse;
+		}
+	}
+}
+
+@media screen and ( min-width: 800px ) {
+
+	.colophon-menu {
+		width: 70%;
+		float: left;
+		margin-left: 5%;
+		
+		ul { float: right; }
+	}	
+}

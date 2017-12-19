@@ -1,0 +1,158 @@
+
+/* Post navigation */
+.post-navigation,
+.paging-navigation {
+	@include wrapper(700px);
+	padding: 2.5em 0;
+}
+
+.post-navigation .nav-links a {
+
+	border-bottom: none;
+				
+	.genericon {
+		@include font-size(2);
+		width: 1em;
+		margin-top: -0.1em;
+		vertical-align: top;
+	}
+		
+	/* Pushing the arrow away from the link */
+	&[rel="prev"],
+	& .previous-image { 
+		padding-left: 1em; 
+	}
+		
+	&[rel="next"],
+	& .next-image { 
+		text-align: right;
+		padding-right: 1em; 
+		float: right;
+	}			
+	
+	.genericon-previous { margin-left: -1em; }
+	.genericon-next { margin-right: -1em; }
+		
+	& .gallery-link {
+		text-align: center;
+	}
+}
+
+@media screen and ( max-width: 599px ) {
+	
+	.post-navigation .nav-links a {
+		
+		&[rel="next"],
+		& .next-image { 
+			float: none;
+			display: block;
+			margin-top: 1em;
+			padding-left: 1.3em;
+			text-align: left;
+		}
+	}
+}
+
+@media screen and ( min-width: 800px ) {
+	
+	.post-navigation .nav-links a {
+
+		width: 50%;
+
+		&[rel="prev"] { 
+			float: left;
+			padding-left: 1em; 
+		}
+		
+		&[rel="next"] { 
+			float: right;
+			text-align: right;
+			padding-right: 1em; 
+		}			
+		
+		&:first-of-type:after {
+			border-bottom: none;
+		}
+	}
+}
+
+/* Page navigation */
+.pagination {
+	text-align: center;
+		
+	a { border-bottom: none; }
+		
+	.page-numbers {
+		border: 1px solid $col-border;
+		color: $col-text;
+		padding: 0.3em 0.5em 0.1em 0.5em;
+		margin: 0 0.2em;
+		@include font-size(1);
+			
+		&.dots { border: none; }
+			
+		&.current {
+			border:  none;
+			background: $col-button-bg;
+			color: $col-button-text;
+				
+			&:hover { color: $col-text-reverse; }
+		}
+			
+		&:hover:not(.dots) { 
+			background: $col-text-light; 
+			color: $col-text-reverse;
+		}
+	}
+		
+	.prev,
+	.next  {
+		font-weight: 600;
+		border: none;
+		color: $col-text;
+			
+		&:hover { background: none; }
+	}
+	
+}
+
+@media screen and ( max-width: 599px ) {
+	
+	.pagination {
+		.prev,
+		.next {
+			display: block;
+			margin: 1em 0;
+		}
+	}
+}
+
+/* Page links */
+.page-links {	
+
+	overflow: hidden;
+	margin-top: 2em;
+	padding-top: 2em;
+	text-align: center;
+	border-top: 1px solid $col-border;
+	
+	.page-links-title {
+		font-weight: 600;
+	}
+	
+	span:not(first-of-type) {
+		margin: 0 0.2em;
+	}
+		
+	a {
+		display: inline-block;
+		margin-bottom: 1px; /* To make sure the bottom border line is showing */
+		border: 1px solid $col-border;
+		padding: 0.3em 0.5em 0.3em 0.5em;		
+
+		&:hover { 
+			background: $col-theme;
+			color: $col-link-text-reverse; 
+		}
+	}
+}

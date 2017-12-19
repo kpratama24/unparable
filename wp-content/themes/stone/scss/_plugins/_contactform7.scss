@@ -1,0 +1,26 @@
+
+.wpcf7-form {
+	p {
+		@include font-size(0.875);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	
+	span {
+		display: block;
+		margin: 0.5em 0 1em 0;
+		
+		&.wpcf7-list-item {
+			margin-bottom: 0;
+		}
+	}
+	
+	span.wpcf7-list-item span.wpcf7-list-item-label {
+		display: inline;
+		@include font-size(1); 
+		font-weight: 400;
+		text-transform: none;
+		letter-spacing: 0;
+	}
+}

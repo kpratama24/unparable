@@ -1,0 +1,49 @@
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	
+	@include reset-form-elements();
+	
+	background: $col-button-bg;
+	color: $col-button-text;
+	
+	@include font-size(0.875);
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	//line-height: 1;
+	padding: 0.8em 2em 0.7em 2em;
+
+	/* The hover effect when mousing over */
+	-moz-transition: all 0.9s ease-in-out;
+	-ms-transition: all 0.9s ease-in-out;
+	-o-transition: all 0.9s ease-in-out;
+	-webkit-transition: all 0.9s ease-in-out;
+	transition: all 0.9s ease-in-out;	
+
+	&:hover {
+		background: $col-theme;
+	}
+
+	&:active {
+		top: 1px;
+	}
+}
+
+button:focus {
+	/* HACK: Making sure all the buttons get the :focus style */
+	outline: 2px dashed  $col-link-text-focus !important;
+}
+
+input[type="button"],
+input[type="search"],
+input[type="reset"],
+input[type="submit"] {
+	
+	&:focus {
+		/* HACK: Making sure all the buttons get the :focus style */
+		border: 5px dashed  $col-link-text-focus !important;
+	}
+}

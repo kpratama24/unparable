@@ -1,0 +1,29 @@
+/*
+ * Responsive video trick
+ * Goes together with a function in functions.php to add the .video-container div around videos
+ * SOURCE: http://alxmedia.se/code/2013/10/make-wordpress-default-video-embeds-responsive/
+ */
+
+.video-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	
+	margin-bottom: 2em;
+}
+
+.video-player {
+	margin-bottom: 2em;
+}
+
+.video-container iframe, 
+.video-container object, 
+.video-container embed, 
+.video-container video { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}

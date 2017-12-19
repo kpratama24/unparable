@@ -1,0 +1,147 @@
+
+.header-nav {
+	position: relative;
+}
+
+.main-navigation ul {
+	@include no-bullets();
+}
+
+/* General display/hover styles */
+.nav-menu li a {
+	padding: 0.3em 0.5em;
+}
+
+.nav-menu li:hover > a,
+.nav-menu .children a,
+.nav-menu .sub-menu a {
+	background-color: transparent;
+	color: $col-text;
+}
+
+.children li:hover,
+.sub-menu li:hover,
+.nav-menu > li a:hover,
+.nav-menu > ul a:hover {
+	background-color: $col-theme;
+	color: $col-text-reverse;
+}
+
+.nav-menu > li a:focus,
+.nav-menu > ul a:focus {
+	background-color: $col-theme;
+	color: $col-text-reverse;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	font-weight: 800;
+}
+
+@media screen and (min-width: 800px) {
+
+	.header-nav {
+		display: inline-block;
+		float: right;
+		width: 70%;
+	}
+	
+	.main-navigation { float: right; }
+	.nav-menu { text-align: right; }
+	
+	.nav-menu li {
+		display: inline-block;
+		position: relative;
+		padding: 0 0.5em 0.3em 0.5em;
+	}
+
+	.nav-menu li a {
+		@include font-size(0.875);
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 1px;
+		margin: 0 0.5em;
+		color: $col-text;
+	}
+
+	.nav-menu .sub-menu,
+	.nav-menu .children {
+		// This hides the sub-menu from view
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		position: absolute;
+		top: 32px;
+		right: 0;
+		z-index: 99999;
+		overflow: hidden;
+		clip: rect(1px, 1px, 1px, 1px);	
+		border-top: 0;	
+	}
+
+	.nav-menu li:hover > ul,
+	.nav-menu ul li:hover > ul,
+	.nav-menu .focus > ul {
+		// This shows the sub-menu when you hover over a li item with children
+		clip: inherit;
+		overflow: inherit;
+		height: inherit;
+		width: 230px;
+		text-align: right;
+	}
+
+	.nav-menu .children li,
+	.nav-menu .sub-menu li {
+		width: 100%;
+		margin-right: 0;
+		display: block;
+		background-color: lighten($col-primary-widgets-bg, 5%);
+		border-bottom: 1px solid $col-border;
+		
+		&:last-of-type { border-bottom: none; }
+	}
+	
+	.nav-menu .sub-menu ul {
+		top: 0;
+		right: 100%;
+	}
+	
+	/*
+	.nav-menu .sub-menu ul,
+	.nav-menu .children ul {
+		// This drops down the grand-child(ren) when hovering over a child
+		position: relative;	
+		top: 5px;
+		right: 9px;
+		display: block;
+		border-top: 1px solid $col-border;
+	}
+		
+	.nav-menu .sub-menu ul li,
+	.nav-menu .children ul li {
+		padding-right: 1em;
+	}
+	*/
+	
+	/* If a Genericon is used in a menu */
+	.nav-menu .genericon {
+		a {
+			font-family: $font-main;
+			@include font-size(0.875);
+			letter-spacing: 1px;
+			line-height: 1.5;
+			text-decoration: none;
+			text-align: left;
+			color: $col-text;
+		}
+	
+		&:before {
+			float: left;
+			margin: 0.5em 0 0 0;
+			padding-right: 0.5em;
+		}
+	}
+	/* end Genericon */
+}

@@ -1,0 +1,7 @@
+start birth -18
+ status mahasiswa dan NPM tidak bisa edit (acl : mahasiswa)
+ agama hindu DONE
+ validasi di form yang bersangkutan ON PROGRESS
+ sertifikat bisa lebih dari satu
+ Penjelasan unparable di setiap form
+ login npm

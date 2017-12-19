@@ -1,0 +1,46 @@
+
+/* Page meta footer
+ * ------------------------------------------------------------- */
+
+.entry-footer .entry-meta {
+	padding: 1em 0;
+	width: 100%;
+	float: left;
+	border-top: 1px solid $col-border;
+	
+	span:after {
+		content: '';
+	}
+}
+
+.entry-author {
+	width: 100%;
+	float: left;
+	padding: 2.5em 0;
+	border-top: 1px solid $col-border;
+	border-bottom: 1px solid $col-border;
+}
+
+.author-avatar {
+	width: 15%;
+	float: left;
+	margin-right: 5%;
+}
+
+.author-description {
+	width: 80%;
+	float: left;
+}
+
+@media screen and (min-width: 600px ) {
+	
+	.meta-title {
+		width: 20%;
+		float: left;
+	}
+
+	.meta-links {
+		width: 80%;
+		float: left;
+	}
+}

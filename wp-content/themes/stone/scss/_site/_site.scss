@@ -1,0 +1,61 @@
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+	-webkit-text-size-adjust: 100%; 
+}
+
+body { 
+	font-family: $font-main;
+	font-weight: 400;
+	@include font-size(1);
+	line-height: 1.5; 
+	background: $col-body-bg;
+	color: $col-text;
+}
+
+.site {
+	position: relative;
+}
+
+/* WordPress edit link
+ * ------------------------------------------------------------- */
+
+.edit-link {
+	padding: 0.3em 0.5em;
+	@include font-size(0.875);
+	text-transform: uppercase;
+	background: $col-theme;
+	
+	a {
+		border-bottom: none;
+		color: lighten($col-text-light, 50%) !important;
+	}	
+	
+	.comment-content & {
+		margin-right: 0.5em;
+	}
+}
+
+/* No custom background colour
+ * ------------------------------------------------------------- */
+
+.site-main {
+	padding: 3em 0;
+}
+
+/* Custom background colour
+ * ------------------------------------------------------------- */
+
+.custom-background .site {
+	@include wrapper(); 
+	margin: 2em auto;
+	background: $col-body-bg;
+}
+	
+/* Clearings
+ * ------------------------------------------------------------- */
+
+@import "clearings";
+

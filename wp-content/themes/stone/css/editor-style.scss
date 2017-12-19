@@ -1,0 +1,71 @@
+/*
+Theme Name: Stone
+Description: Used to style the TinyMCE editor.
+*/
+
+@import "../scss/_init/colors";
+@import "../scss/_init/mixins";
+@import "../scss/_init/fonts";
+
+body { 
+	font-family: $font-main;
+	font-weight: 400;
+	@include font-size(1);
+	line-height: 1.5; 
+	background: $col-body-bg;
+	color: $col-text; 
+}
+
+/**
+ * ------------------------------------------------------------- 
+ 1.0 -Typography
+ * ------------------------------------------------------------- */
+
+@import "../scss/_typography/typography";
+
+/**
+ * ------------------------------------------------------------- 
+ 2.0 - Elements
+ * ------------------------------------------------------------- */
+
+@import "../scss/_elements/elements";
+
+/**
+ * ------------------------------------------------------------- 
+ 3.0 - Links
+ * ------------------------------------------------------------- */
+
+@import "../scss/_links/links";
+
+/**
+ * ------------------------------------------------------------- 
+ 4.0 - Media
+ * ------------------------------------------------------------- */
+
+@import "../scss/_media/media";
+
+/**
+ * ------------------------------------------------------------- 
+ 5.0 - RTL
+ * ------------------------------------------------------------- */
+
+html .mceContentBody.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.rtl ol,
+.rtl ul {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+.rtl .wp-caption,
+.rtl tr th {
+	text-align: right;
+}
+
+.rtl td {
+	text-align: right;
+}
+

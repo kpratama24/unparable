@@ -1,0 +1,344 @@
+
+/* Jetpack Carousel 
+ * ------------------------------------------------------------- */
+.js .slideshow-window {
+	background-color: $col-page-bg;
+	border: none;
+}
+
+/* Jetpack Contact Form
+ * ------------------------------------------------------------- */
+
+.contact-form {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
+		width: 99% !important;
+	}
+}
+
+.contact-form div:not(.clear-form) {
+	margin-bottom: 1em;
+}
+
+label.radio {
+	font-size: 16px; 
+	font-weight: 400 !important;
+	text-transform: none;
+}
+
+/* Jetpack Related posts & Sharing: both are attached to the entry-content of a post
+ * --------------------------------------------------------------------------------- */
+
+.single-post #jp-relatedposts,
+.single-post .sharedaddy {	
+	margin-top: 2.5em;
+}
+
+.single-post .format-gallery .sharedaddy {
+	text-align: left;
+}
+
+/* 
+On the Link post format related posts and sharedaddy are pushed to the right,
+this pushes them back to the left.
+*/
+.single-post .format-link .entry-content #jp-relatedposts,
+.single-post .format-link .entry-content .sharedaddy {
+	margin-left: -3.5em;
+}
+
+
+/* Jetpack Related posts 
+ * ------------------------------------------------------------- */
+
+.single-post .format-gallery #jp-relatedposts {
+
+	@include wrapper(700px);
+	text-align: left;
+}
+
+#jp-relatedposts {
+
+	margin-bottom: 2em;
+	border-top: 1px solid $col-border;
+	
+	h3.jp-relatedposts-headline em {	
+		@include title-font();
+		font-size: 14px !important;
+		text-transform: uppercase;
+		color: $col-text;		
+		
+		&:before {
+			margin-bottom: 2em;
+			border-top: none !important;
+		}
+	}
+	
+	a {
+		border-bottom: 0px;
+	}	
+	
+	.jp-relatedposts-post-title a {
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 0.5em;
+		border-bottom: 1px solid $col-text;
+	}
+	
+	.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a,
+	.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
+		text-decoration: none !important;
+	}
+
+	.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
+		border-bottom: 1px solid $col-theme;
+	}
+}
+
+/* Jetpack Sharing 
+ * ------------------------------------------------------------- */
+ 
+.sharedaddy {
+	
+	margin-top: 2.5em;
+	border-top: 1px solid $col-border;
+	
+	h3.sd-title {	
+		@include title-font();
+		font-size: 14px !important;
+		text-transform: uppercase;
+		color: $col-text;		
+		
+		&:before {
+			margin-bottom: 2em;
+			border-top: none !important;
+		}
+	}
+}
+
+.sd-content ul li {
+	padding: 0 0.5em 0.5em 0 !important;
+}
+
+/* Jetpack widget contact info 
+ * ------------------------------------------------------------- */
+
+.widget_contact_info {
+	
+	.contact-map {
+		margin-bottom: 1em;
+	}
+	
+	.confit-address,
+	.confit-phone,
+	.confit-hours {
+		margin-bottom: 0.5em;
+	}
+	.confit-address {
+		font-weight: 800;
+		letter-spacing: 1px;
+	}	
+}
+
+/* Jetpack widget gravatar 
+ * ------------------------------------------------------------- */
+
+.widget-grofile {
+	h4 {
+		@include font-size(1.125);
+		font-weight: 800;
+		letter-spacing: 1px;
+	}
+	
+	p {
+		@include font-size(1);
+	}
+}
+
+/* Jetpack widget RSS 
+ * ------------------------------------------------------------- */
+
+.widget_rss_links ul {
+	/* See "Common list styles" in "16.0 - Widgets" */
+}
+
+/* Jetpack portfolio/testimonial custom content type - singular
+ * ------------------------------------------------------------- */
+
+.singular {	
+	.jetpack-portfolio,
+	.jetpack-testimonial { @include wrapper(700px); }
+	
+}
+
+/* Jetpack portfolio/testimonial custom content type - list-view
+ * ------------------------------------------------------------- */
+
+.list-view .jetpack-portfolio,
+.list-view .jetpack-testimonial {
+	@include wrapper(700px);
+	overflow: hidden;
+	padding: 4em 0 1em 0;
+}
+
+.list-view .jetpack-portfolio::after,
+.list-view .jetpack-testimonial::after,
+.jetpack-testimonial-shortcode .testimonial-entry::after {
+	content: '';
+	clear: both;
+	display: block;
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 5em;
+	border-bottom: 2px solid $col-border;
+}
+
+.list-view .jetpack-portfolio:nth-of-type(n+2),
+.list-view .jetpack-testimonial:nth-of-type(n+2),
+.jetpack-testimonial-shortcode .testimonial-entry:nth-of-type(n+2) {
+	padding: 4em 0 1em 0;
+}
+
+/* Jetpack portfolio custom content type - shortcode
+ * ------------------------------------------------------------- */
+ 
+.jetpack-portfolio-shortcode {
+	
+	.portfolio-entry-header h2 {
+		@include title-font();
+		@include font-size(1.875);
+		text-transform: uppercase;
+		margin-top: 0;
+		line-height: 1.2;
+	}
+	
+	.portfolio-entry-header .portfolio-entry-meta {
+		@include font-size(1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		
+		span {
+			font-weight: 800;
+		}
+	}
+	
+	.portfolio-entry-content {
+		margin-bottom: 2em;
+	}	
+}
+
+@media screen and ( max-width: 599px ) {
+	
+	.jetpack-portfolio-shortcode {
+		.portfolio-entry-column-2 {
+			width: 100%;
+			margin: 2em 0;
+			padding-bottom: 4em;
+			position: relative;
+			clear: both;
+		}
+	
+		.portfolio-entry:after {
+			content: '';
+			display: block;
+			width: 25%;
+			margin: 0 auto;
+			padding-top: 2em;
+			border-bottom: 2px solid $col-border;
+			position: absolute;
+			bottom: 0;
+			left: 25%;
+			right: 25%;
+		}
+	}
+}
+
+/* Jetpack testimonials custom content type 
+ * ------------------------------------------------------------- */
+
+.post-type-archive-jetpack-testimonial,
+.jetpack-testimonial-shortcode {
+
+	.jetpack-testimonial {
+		position: relative;
+	}
+	
+	.testimonial-entry-content:before {
+		content: '\f106';
+		float: left;	
+		position: relative;
+		top: -0.2em;
+		display: inline-block;
+		font-family: Genericons;
+		@include font-size(3);
+		vertical-align: top;
+		color: $col-post-icon;
+	}
+
+	.testimonial-entry-content p {
+		@include font-size(1.5);
+		font-weight: 400;
+		line-height: 1.5;
+		margin-left: 3em;
+	}
+
+	.testimonial-entry-title {
+		display: block;
+		@include font-size(1);
+		font-weight: 800;
+		letter-spacing: 1px;
+		padding: 0.5em 0;
+		padding-left: 4.5em;
+	}
+
+	.testimonial-featured-image {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-top: 1em;
+		border-bottom: none;
+		
+		img {
+			@include border-radius(50%);
+		}
+	}
+}
+
+@media screen and ( min-width: 800px ) {
+	
+	.post-type-archive-jetpack-testimonial {
+		
+		.content-container {
+			width: 70%;
+			float: left;
+		}
+		
+		.testimonial-featured-image {
+			width: 30%;
+			float: right;
+		}		
+	}
+
+	.jetpack-testimonial-shortcode {
+		
+		.testimonial-entry {
+			position: relative;
+		}
+		
+		.testimonial-entry-content,
+		.testimonial-enry-title {
+			width: 70%;
+		}
+		
+		.testimonial-featured-image {
+			width: 30%;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}		
+	}
+}

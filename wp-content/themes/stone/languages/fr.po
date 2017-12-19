@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stone\n"
+"POT-Creation-Date: 2016-07-26 15:24+0100\n"
+"PO-Revision-Date: 2016-07-26 15:24+0100\n"
+"Last-Translator: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"Language-Team: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Pas Trouvé"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Il semblerait que rien n’a été trouvé à cet endroit. Peut-être devriez-vous "
+"effectuer une recherche?"
+
+#: archive-jetpack-portfolio.php:17 archive.php:36
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: archive-jetpack-testimonial.php:17 archive.php:39
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: archive.php:27
+msgid "Daily Archives: "
+msgstr "Archives Quotidiennes :"
+
+#: archive.php:30
+msgid "Monthly Archives:"
+msgstr "Archives Mensuelles :"
+
+#: archive.php:30
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives:"
+msgstr "Archives annuelles :"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Archives"
+msgstr "Archives"
+
+#: author.php:30
+msgid "All posts by"
+msgstr "Tous les articles de"
+
+#: category.php:21
+msgid "Category Archives:"
+msgstr "Archives de la catégorie :"
+
+#: comments.php:29 inc/template-tags.php:153
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Commentaire"
+msgstr[1] "%1$s Commentaires"
+
+#: comments.php:37 comments.php:66
+msgid "Comment navigation"
+msgstr "Naviguer entre les commentaires"
+
+#: comments.php:39 comments.php:68
+msgid "Older Comments"
+msgstr "Anciens commentaires"
+
+#: comments.php:42 comments.php:71
+msgid "Newer Comments"
+msgstr "Nouveaux commentaires"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: footer.php:15
+msgid "Copyright"
+msgstr "Droits d'auteur"
+
+#: footer.php:16
+msgid "Proudly powered by"
+msgstr "Fièrement propulsé par"
+
+#: functions.php:99
+msgid "Top main menu"
+msgstr "Menu principal haut"
+
+#: functions.php:100
+msgid "Footer menu"
+msgstr "Menu vers le bas"
+
+#: functions.php:138
+msgid "Stones"
+msgstr "Pierres"
+
+#: functions.php:221
+msgid "Primary Footer Widget Area"
+msgstr "Zone primaire de widget du pied de page"
+
+#: functions.php:223
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of three."
+msgstr ""
+"Apparaît dans la section de pied de page du site. Sur les fenêtres larges "
+"widgets apparaissent dans des rangées de trois."
+
+#: functions.php:231
+msgid "Secondary Footer Widget Area"
+msgstr "Zone secondaire de widget du pied de page"
+
+#: functions.php:233
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of two, with the first widget in a row taking up two-thirds "
+"of the available width."
+msgstr ""
+"Apparaît dans la section de pied de page du site. Sur les fenêtres larges "
+"widgets apparaissent en rangées de deux, avec le premier widget prendre deux-"
+"tiers de la largeur disponible."
+
+#: functions.php:260
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "allumé"
+
+#: functions.php:279
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "éteint"
+
+#: functions.php:413
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: header.php:39 header.php:40
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: header.php:75
+msgid "Menu"
+msgstr "Menu"
+
+#: image.php:29 inc/template-tags.php:88 inc/template-tags.php:307
+#: inc/template-tags.php:563 template-parts/content-testimonial.php:12
+msgid "Edit"
+msgstr "Éditer"
+
+#: image.php:64 template-parts/content-gallery.php:21
+#: template-parts/content-image.php:22 template-parts/content-image.php:53
+#: template-parts/content-image.php:67 template-parts/content-page.php:22
+#: template-parts/content-testimonial.php:18 template-parts/content.php:25
+#: template-parts/content.php:30
+#, php-format
+msgid "Read more %s"
+msgstr "Lire la suite  %s"
+
+#: image.php:67 page-archive.php:23 template-parts/content-gallery.php:24
+#: template-parts/content-gallery.php:98 template-parts/content-image.php:25
+#: template-parts/content-image.php:70 template-parts/content-page.php:25
+#: template-parts/content-testimonial.php:21 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Pages :"
+
+#: inc/back-compat.php:42 inc/back-compat.php:55 inc/back-compat.php:71
+#, php-format
+msgid ""
+"Stone requires at least WordPress version 3.6. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Stone requiert au moins WordPress 3.6. Vous êtes actuellement en version %s. "
+"Merci de mettre à jour et de réessayer."
+
+#: inc/custom-functions.php:51
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: inc/custom-functions.php:53
+msgid "Search"
+msgstr "Recherche"
+
+#: inc/custom-functions.php:75
+msgid ""
+"This content is password protected. To view it please enter your password:"
+msgstr ""
+"Ce contenu est protégé par un mot de passe. Pour le lire, veuillez saisir "
+"votre mot de passe:"
+
+#: inc/custom-functions.php:76
+msgid "Password:"
+msgstr "Mot de passe:"
+
+#: inc/custom-functions.php:78
+msgid "Submit"
+msgstr "Soumettre"
+
+#: inc/custom-functions.php:99
+msgid "by"
+msgstr "par"
+
+#: inc/customizer.php:27
+msgid "Site Title Color"
+msgstr "Couleur du Titre"
+
+#: inc/customizer.php:38
+msgid "Link Color"
+msgstr "Couleur du Lien"
+
+#: inc/template-tags.php:128 inc/template-tags.php:200
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:153
+msgid "Leave a comment"
+msgstr "Laissez un commentaire"
+
+#: inc/template-tags.php:153
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: inc/template-tags.php:198
+msgid "Category"
+msgstr "Catégorie"
+
+#: inc/template-tags.php:210 inc/template-tags.php:248
+msgid "Tags"
+msgstr "Mots-clés:"
+
+#: inc/template-tags.php:239
+msgid "Types"
+msgstr "Types"
+
+#: inc/template-tags.php:434
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:439
+msgid "Previous Image"
+msgstr "Image précédente"
+
+#: inc/template-tags.php:440
+msgid "Next Image"
+msgstr "Prochaine image"
+
+#: inc/template-tags.php:497
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/template-tags.php:498
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/template-tags.php:505
+msgid "Posts navigation"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:558
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération!"
+
+#: inc/template-tags.php:567
+msgid "Reply"
+msgstr "Répondre"
+
+#: inc/widgets.php:14
+msgid "Social Media Icons (Stone)"
+msgstr "Icônes de médias sociaux (Stone)"
+
+#: inc/widgets.php:17
+msgid "Link to your social profiles like Twitter, Facebook, Instagram and more"
+msgstr ""
+"Lien vers vos profils sociaux comme Twitter, Facebook, Instagram et plus"
+
+#: inc/widgets.php:51
+msgid "View profile on Codepen"
+msgstr "Voir le profil sur Codepen"
+
+#: inc/widgets.php:57
+msgid "View profile on Dribbble"
+msgstr "Voir le profil sur Dribbble"
+
+#: inc/widgets.php:63
+msgid "View profile on Facebook"
+msgstr "Voir le profil sur Facebook"
+
+#: inc/widgets.php:69
+msgid "View profile on Flickr"
+msgstr "Voir le profil sur Flickr"
+
+#: inc/widgets.php:75
+msgid "View profile on Github"
+msgstr "Voir le profil sur Github"
+
+#: inc/widgets.php:81
+msgid "View profile on Google+"
+msgstr "Voir le profil sur Google +"
+
+#: inc/widgets.php:87
+msgid "View profile on Instagram"
+msgstr "Voir le profil sur Instagram"
+
+#: inc/widgets.php:93
+msgid "View profile on LinkedIn"
+msgstr "Voir le profil LinkedIn"
+
+#: inc/widgets.php:99
+msgid "View profile on Pinterest"
+msgstr "Voir le profil sur Pinterest"
+
+#: inc/widgets.php:105
+msgid "View profile on Tumblr"
+msgstr "Voir le profil Tumblr"
+
+#: inc/widgets.php:111
+msgid "View profile on Twitter"
+msgstr "Voir le profil sur Twitter"
+
+#: inc/widgets.php:117
+msgid "View profile on Vimeo"
+msgstr "Voir le profil sur Vimeo"
+
+#: inc/widgets.php:123
+msgid "View profile on YouTube"
+msgstr "Voir le profil sur YouTube"
+
+#: inc/widgets.php:188
+msgid "Title:"
+msgstr "Titre:"
+
+#: inc/widgets.php:188
+msgid "Codepen username:"
+msgstr "Codepen nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Dribbble username:"
+msgstr "Dribbble nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Facebook username:"
+msgstr "Facebook nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Flickr username:"
+msgstr "Flickr nom de profil:"
+
+#: inc/widgets.php:188
+msgid "GitHub username:"
+msgstr "Github nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Google+ profile name (no need to include the + at the start):"
+msgstr "Google+ nom de profil (pas besoin d’inclure le + au début):"
+
+#: inc/widgets.php:188
+msgid "Instagram username:"
+msgstr "Instagram nom de profil:"
+
+#: inc/widgets.php:188
+msgid "LinkedIn username:"
+msgstr "LinkedIn nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Pinterest username:"
+msgstr "Pinterest nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Tumblr username:"
+msgstr "Tumblr nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Twitter username:"
+msgstr "Twitter nom de profil:"
+
+#: inc/widgets.php:188
+msgid "Vimeo username:"
+msgstr "Vimeo nom de profil:"
+
+#: inc/widgets.php:188
+msgid "YouTube channel ID:"
+msgstr "YouTube nom de profil:"
+
+#: page-archive.php:33
+msgid "By category"
+msgstr "Par catégorie"
+
+#: page-archive.php:40
+msgid "By tag"
+msgstr "Par mots-clés"
+
+#: page-archive.php:47
+msgid "By month"
+msgstr "Par mois"
+
+#: page-archive.php:54
+msgid "By year"
+msgstr "Par année"
+
+#: page-archive.php:61
+msgid "By author"
+msgstr "Par auteur"
+
+#: search.php:16
+msgid "Search Results for:"
+msgstr "Résultats de recherche pour :"
+
+#: sidebar.php:13
+msgid "Widget Area"
+msgstr "Zone de widget"
+
+#: tag.php:23
+msgid "Tag Archives:"
+msgstr "Archives du mot-clé:"
+
+#: template-parts/content-gallery.php:78
+#, php-format
+msgid "This gallery contains %1$s photo."
+msgid_plural "This gallery contains %1$s photos."
+msgstr[0] "Cette galerie contient %1$s photo."
+msgstr[1] "Cette galerie contient %1$s photos."
+
+#: template-parts/content-gallery.php:85
+msgid "View Gallery"
+msgstr "Voir la galerie"
+
+#: template-parts/content-gallery.php:95
+#, php-format
+msgid "View Gallery %s"
+msgstr "Voir la galerie %s"
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr "Prêt à publier votre premier message ?"
+
+#: template-parts/content-none.php:18
+msgid "Get started here"
+msgstr "Commencez ici"
+
+#: template-parts/content-none.php:23
+msgid ""
+"Nothing matched your search terms. Please try again with some different "
+"keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec des mots clés différents."
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semblerait que nous ne pouvons pas trouver ce que vous cherchez. Peut-"
+"être qu’une recherche pourrait vous aider."
+
+#. Theme Name of the plugin/theme
+msgid "Stone"
+msgstr "Stone"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.jokedewinter.co.uk/themes/stone/"
+msgstr "http://www.jokedewinter.co.uk/themes/stone/"
+
+#. Description of the plugin/theme
+msgid ""
+"Stone is a responsive blogging theme with minimal clean design and a focus "
+"on big bold type. It has very little colour on purpose. It is designed to "
+"make your content stand out by itself. Stone has support for featured "
+"images, post formats and Jetpack Portfolio and Testimonial content types. It "
+"includes easy integration for a range of social media profiles. It is "
+"translation ready and includes language files for English (default), Dutch "
+"and French. The theme is compatible with popular plugins Contact Form 7 and "
+"Jetpack."
+msgstr ""
+"Stone est un thème de blogging réactif avec un design propre minime et une "
+"focalisation sur grand caractères gras. Il a très peu de couleur sur le but. "
+"Il est conçu pour rendre votre contenu se démarquer par lui-même. Stone a un "
+"support pour des images en vedette , les formats de poste et les types de "
+"contenu Jetpack Portefeuille et Jetpack Testimonials . Il comprend une "
+"intégration facile pour une gamme de profils de médias sociaux. Il est "
+"traduction prête et inclut les fichiers de langue pour l'anglais (par "
+"défaut), néerlandais et français. Le thème est compatible avec les plugins "
+"populaires Contact Form 7 et Jetpack ."
+
+#. Author of the plugin/theme
+msgid "Joke De Winter Ltd"
+msgstr "Joke De Winter Ltd"
+
+#. Author URI of the plugin/theme
+msgid "http://www.jokedewinter.co.uk"
+msgstr "http://www.jokedewinter.co.uk"
+
+#~ msgid "http://www.spillinghtemes.com/wordpress-themes/sunfower"
+#~ msgstr "http://www.spillinghtemes.com/wordpress-themes/sunfower"
+
+#~ msgid "Spilling Themes"
+#~ msgstr "Spilling Themes"
+
+#~ msgid "http://www.spillinghtemes.com"
+#~ msgstr "http://www.spillinghtemes.com"
+
+#~ msgid "http://www.spillinghtemes.com/wordpress-themes/stone"
+#~ msgstr "http://www.spillinghtemes.com/wordpress-themes/stone"
+
+#~ msgid ""
+#~ "Stone is a responsive blogging theme with minimal clean design and a "
+#~ "focus on big bold type. It has very little colour on purpose, but link "
+#~ "and background colours can be amended to your choice. It is designed to "
+#~ "make your content stand out by itself. stone has support for featured "
+#~ "images, post formats and Jetpack Portfolio and Testimonial content types. "
+#~ "It includes easy integration for a range of social media profiles. It is "
+#~ "translation ready and includes language files for English (default), "
+#~ "Dutch and French. The theme is compatible with popular plugins Contact "
+#~ "Form 7 and Jetpack. stone Pro is a paid version with a choice of "
+#~ "different page templates, typefaces and more. You can buy Stone Pro at "
+#~ "http://www.spillinghtemes.com/wordpress-themes/."
+#~ msgstr ""
+#~ "Stone est un thème responsive de blogs avec un design minime et une "
+#~ "focalisation sur typographie gras et grand. Il a très peu de couleur sur "
+#~ "le but, mais lien et couleurs de fond peut être modifié à votre choix. Il "
+#~ "est conçu pour démarquer votre contenu par lui-même. Stone supporte "
+#~ "featured images, les formats de poste et les types de contenu Jetpack "
+#~ "Portfolio et Testimonial. Il comprend l'intégration facile pour une gamme "
+#~ "de profils de médias sociaux. Il est la traduction prête et inclut les "
+#~ "fichiers de langue pour l'anglais (par défaut), néerlandais et français. "
+#~ "Le thème est compatible avec les plugins populaires Formulaire de contact "
+#~ "7 et Jetpack. Stone Pro est une version payante avec un choix de "
+#~ "différents modèles de page, des different typograhies et plus encore. "
+#~ "Vous pouvez acheter Stone Pro à http://www.spillinghtemes.com/wordpress-"
+#~ "themes/."

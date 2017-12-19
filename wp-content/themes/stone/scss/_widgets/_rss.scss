@@ -1,0 +1,17 @@
+
+.widget_rss {
+	li a {
+
+	}
+	
+	.rssSummary {
+		@include font-size(0.875);
+		padding: 0.3em 1em;
+
+	}
+	
+	cite {
+		@include font-size(0.875);
+		margin-left: 1em;
+	}
+}

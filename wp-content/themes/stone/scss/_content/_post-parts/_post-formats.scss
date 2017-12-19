@@ -1,0 +1,138 @@
+
+/* Post format general:  Audio, Chat, Link, Quote and Status
+ * ------------------------------------------------------------- */
+
+// Shrink the entry-title font size because this is not the main focus of the post
+.format-audio .entry-title, 
+.format-chat .entry-title, 
+.format-link .entry-title, 
+.format-quote .entry-title,
+.format-status .entry-title {
+
+	font-family: $font-main;
+	@include font-size(0.875);
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0.5em 0 1em 0;
+}
+
+// Increase the entry-content font size because this is the focus of the post
+.format-audio .entry-content p,
+.format-link .entry-content p a,
+.format-quote .entry-content blockquote p,
+.format-status .entry-content p {
+	
+	@include font-size(1.875);
+
+	 a {
+		text-decoration: none;
+		color: $col-text;
+	}
+}
+
+.format-quote .entry-content blockquote p a:hover {
+	color: $col-text-reverse;
+}
+@media screen and ( min-width: 600px ) {
+	
+	.format-audio .entry-content p,
+	.format-link .entry-content p a,
+	.format-quote .entry-content blockquote p,
+	.format-status .entry-content p {		
+		@include font-size(3);
+	}
+
+	.format-quote .entry-content blockquote p {
+		padding-left: 2em;
+	}
+}
+
+
+/* Post format icons: Audio, Link and Status
+ * ------------------------------------------------------------- */
+
+.format-audio,
+.format-chat,
+.format-link,
+.format-status {
+		
+	.entry-content:before {	
+		float: left;	
+		position: relative;
+		top: -0.2em;
+		display: inline-block; 
+		font-family: Genericons;
+		@include font-size(2.5);
+		vertical-align: top;
+		color: $col-post-icon;
+	}
+}
+
+.format-audio,
+.format-status {
+	.entry-content p:first-of-type { padding-left: 1.5em; }
+}
+
+.format-chat .entry-content p { 
+	margin-left: 3em; 
+	padding: 0 0.5em; 
+}
+
+.format-link .entry-content p { padding-left: 2.5em; }
+
+.format-audio .entry-content:before { content: '\f109'; }
+.format-chat .entry-content:before { content: '\f108'; }
+.format-link .entry-content:before { content: '\f107'; }
+.format-status .entry-content:before { content: '\f304'; }
+
+@media screen and ( min-width: 600px ) {
+	
+	.format-audio,
+	.format-link,
+	.format-status {
+
+		.entry-content:before {	
+			@include font-size(5);
+		}
+	}
+
+	.format-audio,
+	.format-status {
+		.entry-content p:first-of-type { 
+			margin-left: 2em;
+			padding-left: 0; 
+		}
+	}
+
+	.format-chat .entry-content:before { @include font-size(4); }
+	.format-chat .entry-content p { margin-left: 5em; }
+
+	.format-link .entry-content:before { margin-left: -0.5em; }
+	.format-link .entry-content { padding-left: 3.5em; }
+}
+
+/* Post format: Link
+ * ------------------------------------------------------------- */
+
+.format-link a:hover {
+	color: $col-theme;
+}
+
+/* Post format: Chat
+ * ------------------------------------------------------------- */
+
+.format-chat .entry-content {
+	
+	//p { padding: 0.3em; }
+	p:nth-child(even) { background: darken($col-code-bg, 5%); }
+}
+
+/* Post format: Gallery
+ * ------------------------------------------------------------- */
+/*
+.format-gallery .entry-content,
+.format-gallery .entry-gallery,
+.format-image .entry-image {
+	text-align: center;
+}
+*/

@@ -1,0 +1,19 @@
+
+.recentcomments {
+	
+	@include font-size(1);
+	
+	a { font-style: italic; }
+	
+	.comment-author-link,
+	.comment-author-link a {
+		font-weight: 600;
+		font-style: normal;
+		color: $col-text;
+	}
+
+	.comment-author-link a { border-bottom: 1px solid $col-text; }
+	
+	&:hover .comment-author-link { color: $col-text-reverse; }
+	&:hover .comment-author-link a { border-bottom: 1px solid $col-text-reverse; }
+}

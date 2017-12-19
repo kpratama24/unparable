@@ -1,0 +1,50 @@
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	letter-spacing: 1px;
+	padding: 0.3em 0;
+}
+
+h1, h5, h6 {
+	@include title-font();
+	text-transform: uppercase;
+}
+
+h2, h3, h4 {
+	font-family: $font-main;
+	
+	.entry-content & {
+		padding-top: 0.5em;
+	}
+}
+
+h2, h3, h4 {
+	font-weight: 400;
+}
+
+h1 {
+	@include font-size(3);
+	line-height: 1;
+}
+
+h2 {
+	@include font-size(2.25);
+	line-height: 1;
+}
+
+h3 {
+	@include font-size(1.875);
+}
+
+h4 {
+	@include font-size(1.5);
+}
+
+h5 {
+	@include font-size(1);
+}
+
+h6 {
+	@include font-size(0.875);
+}
+

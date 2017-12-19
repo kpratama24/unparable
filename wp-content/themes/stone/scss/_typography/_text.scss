@@ -1,0 +1,139 @@
+p {
+	@include font-size(1);
+	margin-bottom: 1em;
+}
+
+b,
+strong {
+	font-weight: 600;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+@media screen and ( min-width: 800px ) {
+		
+	p {
+		@include font-size(1.125);
+	}
+}
+
+/* Dealing with potential excessive title lenghts with no spaces
+ * ------------------------------------------------------------- */
+
+article.post,
+article.page,
+article.post-single,
+
+.entry-title,
+.archive-title,
+.taxonomy-description,
+.archives-content a,
+
+.nav-menu li a,
+.post-navigation .nav-links a,
+
+.widget ul,
+.widget a {
+	@include excessive-length(); 
+}
+
+/* Code styling
+ * ------------------------------------------------------------- */
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: $font-code;
+	@include font-size(1);
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	line-height: 1.5;
+	background: $col-code-bg;
+	color: $col-code-text;
+	padding: 0 0.3em;
+}
+
+pre {
+	border: 1px solid darken($col-code-bg, 10%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1em 1.5em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/* Other tags
+ * ------------------------------------------------------------- */
+
+address {
+	text-transform: capitalize;
+	margin-bottom: 1em;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted $col-text;
+	cursor: help;
+}
+
+cite,
+dfn,
+em,
+i {
+	font-style: italic;
+}
+
+del {
+	color: $col-text-light;
+}
+
+hr {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 0;
+	height: 1px;
+	margin-bottom: 23px;
+}
+
+mark,
+ins {
+	padding: 0 0.3em;
+	text-decoration: none;
+	background: $col-insert-bg;
+	border: 1px solid darken($col-insert-bg, 40%);
+}
+
+small {
+	font-size: smaller;
+}
+
+big {
+	font-size: 125%;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}

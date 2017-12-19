@@ -1,0 +1,431 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Stone\n"
+"POT-Creation-Date: 2015-10-01 12:13+0100\n"
+"PO-Revision-Date: 2015-10-01 11:37+0100\n"
+"Last-Translator: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"Language-Team: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive-jetpack-portfolio.php:23 archive.php:36
+msgid "Portfolio"
+msgstr ""
+
+#: archive-jetpack-testimonial.php:23 archive.php:39
+msgid "Testimonials"
+msgstr ""
+
+#: archive.php:27
+msgid "Daily Archives: "
+msgstr ""
+
+#: archive.php:30
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:30
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:42
+msgid "Archives"
+msgstr ""
+
+#: author.php:30
+msgid "All posts by"
+msgstr ""
+
+#: category.php:21
+msgid "Category Archives:"
+msgstr ""
+
+#: comments.php:29 inc/template-tags.php:153
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37 comments.php:66
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:68
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:71
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:16
+msgid "Proudly powered by"
+msgstr ""
+
+#: functions.php:83
+msgid "Top main menu"
+msgstr ""
+
+#: functions.php:84
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:201
+msgid "Stones"
+msgstr ""
+
+#: functions.php:265
+msgid "Primary Footer Widget Area"
+msgstr ""
+
+#: functions.php:267
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of three."
+msgstr ""
+
+#: functions.php:275
+msgid "Secondary Footer Widget Area"
+msgstr ""
+
+#: functions.php:277
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of two, with the first widget in a row taking up two-thirds "
+"of the available width."
+msgstr ""
+
+#: functions.php:304
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:323
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:456
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:70 header.php:71
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:76
+msgid "Menu"
+msgstr ""
+
+#: image.php:29 inc/template-tags.php:88 inc/template-tags.php:307
+#: inc/template-tags.php:563 template-parts/content-testimonial.php:12
+msgid "Edit"
+msgstr ""
+
+#: image.php:64 template-parts/content-gallery.php:21
+#: template-parts/content-image.php:22 template-parts/content-image.php:53
+#: template-parts/content-image.php:67 template-parts/content-page.php:22
+#: template-parts/content-testimonial.php:18 template-parts/content.php:25
+#: template-parts/content.php:30
+#, php-format
+msgid "Read more %s"
+msgstr ""
+
+#: image.php:67 page-archive.php:23 template-parts/content-gallery.php:24
+#: template-parts/content-gallery.php:98 template-parts/content-image.php:25
+#: template-parts/content-image.php:70 template-parts/content-page.php:25
+#: template-parts/content-testimonial.php:21 template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: inc/back-compat.php:42 inc/back-compat.php:55 inc/back-compat.php:71
+#, php-format
+msgid ""
+"Stone requires at least WordPress version 3.6. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/custom-functions.php:51
+msgid "Search for:"
+msgstr ""
+
+#: inc/custom-functions.php:53
+msgid "Search"
+msgstr ""
+
+#: inc/custom-functions.php:75
+msgid ""
+"This content is password protected. To view it please enter your password:"
+msgstr ""
+
+#: inc/custom-functions.php:76
+msgid "Password:"
+msgstr ""
+
+#: inc/custom-functions.php:78
+msgid "Submit"
+msgstr ""
+
+#: inc/custom-functions.php:99
+msgid "by"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Link Color"
+msgstr ""
+
+#: inc/template-tags.php:128 inc/template-tags.php:200
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:153
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:153
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:198
+msgid "Category"
+msgstr ""
+
+#: inc/template-tags.php:210 inc/template-tags.php:248
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:239
+msgid "Types"
+msgstr ""
+
+#: inc/template-tags.php:434
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:439
+msgid "Previous Image"
+msgstr ""
+
+#: inc/template-tags.php:440
+msgid "Next Image"
+msgstr ""
+
+#: inc/template-tags.php:497
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:498
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:505
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:558
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:567
+msgid "Reply"
+msgstr ""
+
+#: inc/widgets.php:14
+msgid "Social Media Icons (Stone)"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Link to your social profiles like Twitter, Facebook, Instagram and more"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Codepen username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Dribbble username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Facebook username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Flickr username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "GitHub username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Google+ profile name (no need to include the + at the start):"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Instagram username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "LinkedIn username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Pinterest username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Tumblr username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Twitter username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "Vimeo username:"
+msgstr ""
+
+#: inc/widgets.php:188
+msgid "YouTube channel ID:"
+msgstr ""
+
+#: page-archive.php:33
+msgid "By category"
+msgstr ""
+
+#: page-archive.php:40
+msgid "By tag"
+msgstr ""
+
+#: page-archive.php:47
+msgid "By month"
+msgstr ""
+
+#: page-archive.php:54
+msgid "By year"
+msgstr ""
+
+#: page-archive.php:61
+msgid "By author"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for:"
+msgstr ""
+
+#: tag.php:23
+msgid "Tag Archives:"
+msgstr ""
+
+#: template-parts/content-gallery.php:78
+#, php-format
+msgid "This gallery contains %1$s photo."
+msgid_plural "This gallery contains %1$s photos."
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content-gallery.php:85
+msgid "View Gallery"
+msgstr ""
+
+#: template-parts/content-gallery.php:95
+#, php-format
+msgid "View Gallery %s"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Nothing matched your search terms. Please try again with some different "
+"keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Stone"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.spillinghtemes.com/wordpress-themes/stone"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Stone is a responsive blogging theme with minimal clean design and a focus "
+"on big bold type. It has very little colour on purpose, but link and "
+"background colours can be amended to your choice. It is designed to make "
+"your content stand out by itself. stone has support for featured images, "
+"post formats and Jetpack Portfolio and Testimonial content types. It "
+"includes easy integration for a range of social media profiles. It is "
+"translation ready and includes language files for English (default), Dutch "
+"and French. The theme is compatible with popular plugins Contact Form 7 and "
+"Jetpack. stone Pro is a paid version with a choice of different page "
+"templates, typefaces and more. You can buy Stone Pro at http://www."
+"spillinghtemes.com/wordpress-themes/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Spilling Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.spillinghtemes.com"
+msgstr ""

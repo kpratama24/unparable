@@ -1,0 +1,111 @@
+
+.widget-wrapper {
+	@include wrapper();
+}
+
+.widget {	
+	float: left;
+	width: 100%;
+	padding: 3em 0 0 0;
+	
+	h3 {
+		@include title-font();
+		@include font-size(1);
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+		margin-bottom: 0.5em;
+		color: $col-text;		
+	}
+	
+	ul li:hover {
+		background: $col-theme;
+		color: $col-button-text;
+		a { color: $col-button-text; }
+	}
+
+	a { 
+		border-bottom: none;
+		font-weight: 600;
+	}
+
+	.post-date,
+	.rss-date {
+		@include font-size(0.875);
+		font-weight: 800;
+		letter-spacing: 1px;
+		
+		&:before {
+			content: "\2022";
+			margin-right: 0.3em;
+			font-weight: 600;
+		}
+	}
+}
+
+/* Common list styles */
+.widget_archive ul,
+.widget_categories ul,
+.widget_pages ul,
+.widget_meta ul,
+.widget_nav_menu ul,
+.widget_recent_entries ul,
+.widget_recent_comments ul,
+.widget_rss_links ul {
+	@include no-bullets();
+	margin: 0;
+	width: 100%;
+	display: block;
+	float: left;
+		
+	li {
+		display: block;
+		padding: 0.5em;
+		border-bottom: 1px solid darken($col-border, 40%);
+	}
+
+	a {
+		@include font-size(1);
+//		border-bottom: 1px solid $col-text;
+	}
+	
+	.children li {
+		margin-top: 0.5em;
+		padding-bottom: 0;
+		border-top: 1px solid darken($col-border, 40%);
+		border-bottom: none;
+	}
+}
+
+.widget_archive ul li:hover {
+	background: $col-theme;
+	a { color: $col-button-text; }
+}
+
+/* Calendar widget
+ * ------------------------------------------------------------- */
+@import "calendar";
+
+/* Recent comments widget
+ * ------------------------------------------------------------- */
+@import "comments";
+
+/* RSS widget
+ * ------------------------------------------------------------- */
+@import "rss";
+
+/* Search widget
+ * ------------------------------------------------------------- */
+@import "search";
+
+/* Tag cloud widget
+ * ------------------------------------------------------------- */
+@import "tagcloud";
+
+/* Text widget
+ * ------------------------------------------------------------- */
+@import "text";
+
+/* Social Links
+ * ------------------------------------------------------------- */
+@import "social-links";
+

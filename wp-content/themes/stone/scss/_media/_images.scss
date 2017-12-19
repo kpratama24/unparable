@@ -1,0 +1,18 @@
+
+img:not(.site-header-image-img) {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+.attachment a[rel="attachment"] {
+	border-bottom: none;
+}
+
+.attachment a[rel="attachment"] img {
+	margin-bottom: 1em;
+}
+
+.entry-image {
+	margin-bottom: 2em;
+	text-align: center;
+}

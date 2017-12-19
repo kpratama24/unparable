@@ -1,0 +1,603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stone\n"
+"POT-Creation-Date: 2016-07-26 15:24+0100\n"
+"PO-Revision-Date: 2016-07-26 15:24+0100\n"
+"Last-Translator: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"Language-Team: Joke De Winter <joke@jokedewinter.co.uk>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Niet Gevonden"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Het lijkt er op dat er hier niets gevonden werd. Misschien met zoeken "
+"proberen?"
+
+#: archive-jetpack-portfolio.php:17 archive.php:36
+msgid "Portfolio"
+msgstr "Portofolio"
+
+#: archive-jetpack-testimonial.php:17 archive.php:39
+msgid "Testimonials"
+msgstr "Getuigenissen"
+
+#: archive.php:27
+msgid "Daily Archives: "
+msgstr "Dagelijkse archieven:"
+
+#: archive.php:30
+msgid "Monthly Archives:"
+msgstr "Maandelijkse archieven:"
+
+#: archive.php:30
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives:"
+msgstr "Jaarlijkse archieven:"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:42
+msgid "Archives"
+msgstr "Archieven"
+
+#: author.php:30
+msgid "All posts by"
+msgstr "Alle berichten van"
+
+#: category.php:21
+msgid "Category Archives:"
+msgstr "Categorie Archieven:"
+
+#: comments.php:29 inc/template-tags.php:153
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Eén reactie"
+msgstr[1] "%1$s Reacties"
+
+#: comments.php:37 comments.php:66
+msgid "Comment navigation"
+msgstr "Reactie navigatie"
+
+#: comments.php:39 comments.php:68
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:42 comments.php:71
+msgid "Newer Comments"
+msgstr "Nieuwere Reacties"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Commentaar is gesloten."
+
+#: footer.php:15
+msgid "Copyright"
+msgstr "Copyright"
+
+#: footer.php:16
+msgid "Proudly powered by"
+msgstr "Trots aangedreven door"
+
+#: functions.php:99
+msgid "Top main menu"
+msgstr "Top hoofdmenu"
+
+#: functions.php:100
+msgid "Footer menu"
+msgstr "Voettekst menu"
+
+#: functions.php:138
+msgid "Stones"
+msgstr "Stenen"
+
+#: functions.php:221
+msgid "Primary Footer Widget Area"
+msgstr "Primair widget gebied voor de voettekst"
+
+#: functions.php:223
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of three."
+msgstr ""
+"Verschijnt in de voet sectie van de site. Op brede schermen worden de "
+"widgets in rijen van drie geplaatst."
+
+#: functions.php:231
+msgid "Secondary Footer Widget Area"
+msgstr "Secundair widget gebied voor de voettekst"
+
+#: functions.php:233
+msgid ""
+"Appears in the footer section of the site. On wide viewports widgets will "
+"appear in rows of two, with the first widget in a row taking up two-thirds "
+"of the available width."
+msgstr ""
+"Verschijnt in de voet sectie van de site. Op brede schermen worden de "
+"widgets in rijen van twee geplaatst. De eerste widget in een rij neemt "
+"tweederde van de beschikbare breedte in. Het tweede widget in een rij neemt "
+"één derde van de beschikbare breedte in."
+
+#: functions.php:260
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "aan"
+
+#: functions.php:279
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "aan"
+
+#: functions.php:413
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:39 header.php:40
+msgid "Skip to content"
+msgstr "Ga verder naar hoofdinhoud"
+
+#: header.php:75
+msgid "Menu"
+msgstr "Menu"
+
+#: image.php:29 inc/template-tags.php:88 inc/template-tags.php:307
+#: inc/template-tags.php:563 template-parts/content-testimonial.php:12
+msgid "Edit"
+msgstr "Bewerk"
+
+#: image.php:64 template-parts/content-gallery.php:21
+#: template-parts/content-image.php:22 template-parts/content-image.php:53
+#: template-parts/content-image.php:67 template-parts/content-page.php:22
+#: template-parts/content-testimonial.php:18 template-parts/content.php:25
+#: template-parts/content.php:30
+#, php-format
+msgid "Read more %s"
+msgstr "Lees verder %s"
+
+#: image.php:67 page-archive.php:23 template-parts/content-gallery.php:24
+#: template-parts/content-gallery.php:98 template-parts/content-image.php:25
+#: template-parts/content-image.php:70 template-parts/content-page.php:25
+#: template-parts/content-testimonial.php:21 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Pagina’s:"
+
+#: inc/back-compat.php:42 inc/back-compat.php:55 inc/back-compat.php:71
+#, php-format
+msgid ""
+"Stone requires at least WordPress version 3.6. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Stone een vereist ten minste WordPress versie 3.6. U werkt met versie %s. "
+"Gelieve te upgraden en probeer opnieuw."
+
+#: inc/custom-functions.php:51
+msgid "Search for:"
+msgstr "Zoek naar:"
+
+#: inc/custom-functions.php:53
+msgid "Search"
+msgstr "Zoek"
+
+#: inc/custom-functions.php:75
+msgid ""
+"This content is password protected. To view it please enter your password:"
+msgstr ""
+"Deze inhoud is beveiligd met een wachtwoord. Als u wilt verder lezen voer "
+"dan uw wachtwoord in:"
+
+#: inc/custom-functions.php:76
+msgid "Password:"
+msgstr "Wachtwoord"
+
+#: inc/custom-functions.php:78
+msgid "Submit"
+msgstr "Indienen"
+
+#: inc/custom-functions.php:99
+msgid "by"
+msgstr "door"
+
+#: inc/customizer.php:27
+msgid "Site Title Color"
+msgstr "Site Titel Kleur"
+
+#: inc/customizer.php:38
+msgid "Link Color"
+msgstr "Link Kleur"
+
+#: inc/template-tags.php:128 inc/template-tags.php:200
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:153
+msgid "Leave a comment"
+msgstr "Laat een reactie achter"
+
+#: inc/template-tags.php:153
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: inc/template-tags.php:198
+msgid "Category"
+msgstr "Categorie"
+
+#: inc/template-tags.php:210 inc/template-tags.php:248
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/template-tags.php:239
+msgid "Types"
+msgstr "Type"
+
+#: inc/template-tags.php:434
+msgid "Post navigation"
+msgstr "Artikel navigatie"
+
+#: inc/template-tags.php:439
+msgid "Previous Image"
+msgstr "Vorige Afbeelding"
+
+#: inc/template-tags.php:440
+msgid "Next Image"
+msgstr "Volgende Afbeelding"
+
+#: inc/template-tags.php:497
+msgid "Previous"
+msgstr "Vorige"
+
+#: inc/template-tags.php:498
+msgid "Next"
+msgstr "Volgende"
+
+#: inc/template-tags.php:505
+msgid "Posts navigation"
+msgstr "Artikel navigatie"
+
+#: inc/template-tags.php:558
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie is in afwachting van goedkeuring"
+
+#: inc/template-tags.php:567
+msgid "Reply"
+msgstr "Antwoorden"
+
+#: inc/widgets.php:14
+msgid "Social Media Icons (Stone)"
+msgstr "Social Media Icons (Stone)"
+
+#: inc/widgets.php:17
+msgid "Link to your social profiles like Twitter, Facebook, Instagram and more"
+msgstr ""
+"Link naar uw sociale profielen zoals Twitter, Facebook, Instagram en meer"
+
+#: inc/widgets.php:51
+msgid "View profile on Codepen"
+msgstr "Bekijk profiel op Codepen"
+
+#: inc/widgets.php:57
+msgid "View profile on Dribbble"
+msgstr "Bekijk profiel op Dribbble"
+
+#: inc/widgets.php:63
+msgid "View profile on Facebook"
+msgstr "Bekijk profiel op Facebook"
+
+#: inc/widgets.php:69
+msgid "View profile on Flickr"
+msgstr "Bekijk profiel op Flickr"
+
+#: inc/widgets.php:75
+msgid "View profile on Github"
+msgstr "Bekijk profiel op Github"
+
+#: inc/widgets.php:81
+msgid "View profile on Google+"
+msgstr "Bekijk profiel op Google +"
+
+#: inc/widgets.php:87
+msgid "View profile on Instagram"
+msgstr "Bekijk profiel op Instagram"
+
+#: inc/widgets.php:93
+msgid "View profile on LinkedIn"
+msgstr "Bekijk profiel op LinkedIn"
+
+#: inc/widgets.php:99
+msgid "View profile on Pinterest"
+msgstr "Bekijk profiel op Pinterest"
+
+#: inc/widgets.php:105
+msgid "View profile on Tumblr"
+msgstr "Bekijk profiel op Tumblr"
+
+#: inc/widgets.php:111
+msgid "View profile on Twitter"
+msgstr "Bekijk profiel op Twitter"
+
+#: inc/widgets.php:117
+msgid "View profile on Vimeo"
+msgstr "Bekijk profiel op Vimeo"
+
+#: inc/widgets.php:123
+msgid "View profile on YouTube"
+msgstr "Bekijk profiel op YouTube"
+
+#: inc/widgets.php:188
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets.php:188
+msgid "Codepen username:"
+msgstr "Codepen gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Dribbble username:"
+msgstr "Dribbble gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Facebook username:"
+msgstr "Facebook Gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Flickr username:"
+msgstr "Flickr gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "GitHub username:"
+msgstr "GitHub gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Google+ profile name (no need to include the + at the start):"
+msgstr "Google + profielnaam (geen behoefte voor de + aan het begin):"
+
+#: inc/widgets.php:188
+msgid "Instagram username:"
+msgstr "Instagram gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "LinkedIn username:"
+msgstr "LinkedIn gebruikersnaam"
+
+#: inc/widgets.php:188
+msgid "Pinterest username:"
+msgstr "Pinterest gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Tumblr username:"
+msgstr "Tumblr gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Twitter username:"
+msgstr "Twitter gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "Vimeo username:"
+msgstr "Vimeo gebruikersnaam:"
+
+#: inc/widgets.php:188
+msgid "YouTube channel ID:"
+msgstr "YouTube kanaal-ID:"
+
+#: page-archive.php:33
+msgid "By category"
+msgstr "Per categorie"
+
+#: page-archive.php:40
+msgid "By tag"
+msgstr "Per tag"
+
+#: page-archive.php:47
+msgid "By month"
+msgstr "Per maand"
+
+#: page-archive.php:54
+msgid "By year"
+msgstr "Per jaar"
+
+#: page-archive.php:61
+msgid "By author"
+msgstr "Door auteur"
+
+#: search.php:16
+msgid "Search Results for:"
+msgstr "Zoekresultaten voor:"
+
+#: sidebar.php:13
+msgid "Widget Area"
+msgstr "Widget ruimte "
+
+#: tag.php:23
+msgid "Tag Archives:"
+msgstr "Tag archieven:"
+
+#: template-parts/content-gallery.php:78
+#, php-format
+msgid "This gallery contains %1$s photo."
+msgid_plural "This gallery contains %1$s photos."
+msgstr[0] "Deze galerij bevat %1$s foto."
+msgstr[1] "Deze galerij bevat %1$s fotos."
+
+#: template-parts/content-gallery.php:85
+msgid "View Gallery"
+msgstr "Bekijk Galerij"
+
+#: template-parts/content-gallery.php:95
+#, php-format
+msgid "View Gallery %s"
+msgstr "View Gallery %s"
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr "Klaar om uw eerste bericht te publiceren?"
+
+#: template-parts/content-none.php:18
+msgid "Get started here"
+msgstr "Begin hier"
+
+#: template-parts/content-none.php:23
+msgid ""
+"Nothing matched your search terms. Please try again with some different "
+"keywords."
+msgstr "Geen resultaten gevonden. Probeer opnieuw met andere zoekcriteria."
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt erop dat we niet kunt vinden wat je zoekt. Probeer het eens met "
+"(andere) zoekwoorden ;-)"
+
+#. Theme Name of the plugin/theme
+msgid "Stone"
+msgstr "Stone"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.jokedewinter.co.uk/themes/stone/"
+msgstr "http://www.jokedewinter.co.uk/themes/stone/"
+
+#. Description of the plugin/theme
+msgid ""
+"Stone is a responsive blogging theme with minimal clean design and a focus "
+"on big bold type. It has very little colour on purpose. It is designed to "
+"make your content stand out by itself. Stone has support for featured "
+"images, post formats and Jetpack Portfolio and Testimonial content types. It "
+"includes easy integration for a range of social media profiles. It is "
+"translation ready and includes language files for English (default), Dutch "
+"and French. The theme is compatible with popular plugins Contact Form 7 and "
+"Jetpack."
+msgstr ""
+"Stone is een responsieve blog thema met een minimum aan design en een focus "
+"op grote tekst. Het heeft heel weinig kleur met opzet. Het is ontworpen om "
+"je inhoud in het centrum te plaatsen. Stone heeft featured images, post "
+"formats en Jetpack Portfolio en Testimonial inhoud types. Het bezit ook een "
+"gemakkelijke integratie met een reeks social media profielen. Het is "
+"vertaling klaar en bevat de taal bestanden voor Engels (standaard), "
+"Nederlands en Frans. Het thema is bruikbaar met de populaire plugins Contact "
+"Form 7 en Jetpack. "
+
+#. Author of the plugin/theme
+msgid "Joke De Winter Ltd"
+msgstr "Joke De Winter Ltd"
+
+#. Author URI of the plugin/theme
+msgid "http://www.jokedewinter.co.uk"
+msgstr "http://www.jokedewinter.co.uk"
+
+#~ msgid "http://www.spillinghtemes.com/wordpress-themes/sunfower"
+#~ msgstr "http://www.spillinghtemes.com/wordpress-themes/sunfower"
+
+#~ msgid "Spilling Themes"
+#~ msgstr "Spilling Themes"
+
+#~ msgid "http://www.spillinghtemes.com"
+#~ msgstr "http://www.spillinghtemes.com"
+
+#~ msgid ""
+#~ "Stone is a responsive blogging theme with minimal clean design and a "
+#~ "focus on big bold type. It has very little colour on purpose. It is "
+#~ "designed to make your content stand out by itself. Stone has support for "
+#~ "featured images, post formats and Jetpack Portfolio and Testimonial "
+#~ "content types. It includes easy integration for a range of social media "
+#~ "profiles. It is translation ready and includes language files for English "
+#~ "(default), Dutch and French. The theme is compatible with popular plugins "
+#~ "Contact Form 7 and Jetpack. Stone Pro is a paid version with a choice of "
+#~ "different page templates, typefaces and more."
+#~ msgstr ""
+#~ "Stone is een responsieve blog thema met een minimum aan design en een "
+#~ "focus op grote tekst. Het heeft heel weinig kleur met opzet. Het is "
+#~ "ontworpen om je inhoud in het centrum te plaatsen. Stone heeft featured "
+#~ "images, post formats en Jetpack Portfolio en Testimonial inhoud types. "
+#~ "Het bezit ook een gemakkelijke integratie met een reeks social media "
+#~ "profielen. Het is vertaling klaar en bevat de taal bestanden voor Engels "
+#~ "(standaard), Nederlands en Frans. Het thema is bruikbaar met de populaire "
+#~ "plugins Contact Form 7 en Jetpack. "
+
+#~ msgid "http://www.spillinghtemes.com/wordpress-themes/stone"
+#~ msgstr "http://www.spillinghtemes.com/wordpress-themes/stone"
+
+#~ msgid ""
+#~ "Stone is a responsive blogging theme with minimal clean design and a "
+#~ "focus on big bold type. It has very little colour on purpose, but link "
+#~ "and background colours can be amended to your choice. It is designed to "
+#~ "make your content stand out by itself. stone has support for featured "
+#~ "images, post formats and Jetpack Portfolio and Testimonial content types. "
+#~ "It includes easy integration for a range of social media profiles. It is "
+#~ "translation ready and includes language files for English (default), "
+#~ "Dutch and French. The theme is compatible with popular plugins Contact "
+#~ "Form 7 and Jetpack. stone Pro is a paid version with a choice of "
+#~ "different page templates, typefaces and more. You can buy Stone Pro at "
+#~ "http://www.spillinghtemes.com/wordpress-themes/."
+#~ msgstr ""
+#~ "Stone is een responsive blogging thema met minimaal design en een focus "
+#~ "op grote vetgedrukte text. Het heeft zeer weinig kleur met opzet, maar "
+#~ "kleuren voor links en de achtergrond kunnen aangepast worden naar keuze. "
+#~ "Het is ontworpen om uw inhoud van zichzelf te laten uitblinken. Stone "
+#~ "heeft ondersteuning voor featured images, post-formats en Jetpack "
+#~ "Portfolio en Testimonial content types. Het bevat eenvoudige integratie "
+#~ "voor een reeks van sociale media profielen . Het is vertaling klaar en "
+#~ "bevat taalbestanden voor Engels (standaard), Nederlands en Frans. Het "
+#~ "thema is compatibel met populaire plugins Contact Formulier 7 en Jetpack. "
+#~ "Stone Pro is een betaalde versie met een keuze uit verschillende pagina "
+#~ "templates,  keuze uit verschillende lettertypes en meer. Je kan Stone Pro "
+#~ "kopen op http://www.spillinghtemes.com/wordpress-themes/."
+
+#~ msgid ""
+#~ "stone requires at least WordPress version 3.6. You are running version "
+#~ "%s. Please upgrade and try again."
+#~ msgstr ""
+#~ "Stone een vereist ten minste WordPress versie 3.6. U werkt met versie %s. "
+#~ "Gelieve te upgraden en probeer opnieuw."
+
+#~ msgid "Social Media Icons (stone)"
+#~ msgstr "Social Media Icons (Stone)"
+
+#~ msgid ""
+#~ "stone is a responsive blogging theme with minimal clean design and a "
+#~ "focus on big bold type. It has very little colour on purpose. It is "
+#~ "designed to make your content stand out by itself. stone has support for "
+#~ "featured images, post formats and Jetpack Portfolio and Testimonial "
+#~ "content types. It includes easy integration for a range of social media "
+#~ "profiles. It is translation ready and includes language files for English "
+#~ "(default), Dutch and French. The theme is compatible with popular plugins "
+#~ "Contact Form 7 and Jetpack. stone Pro is a paid version with a choice of "
+#~ "different page templates, and other things."
+#~ msgstr ""
+#~ "Stone is een responsive blogging thema met minimaal design en een focus "
+#~ "op grote vetgedrukte text. Het heeft zeer weinig kleur met opzet, maar "
+#~ "kleuren voor links en de achtergrond kunnen aangepast worden naar keuze. "
+#~ "Het is ontworpen om uw inhoud van zichzelf te laten uitblinken. Stone "
+#~ "heeft ondersteuning voor featured images, post-formats en Jetpack "
+#~ "Portfolio en Testimonial content types. Het bevat eenvoudige integratie "
+#~ "voor een reeks van sociale media profielen . Het is vertaling klaar en "
+#~ "bevat taalbestanden voor Engels (standaard), Nederlands en Frans. Het "
+#~ "thema is compatibel met populaire plugins Contact Formulier 7 en Jetpack. "
+#~ "Stone Pro is een betaalde versie met een keuze uit verschillende pagina "
+#~ "templates,  keuze uit verschillende lettertypes en meer. Je kan Stone Pro "
+#~ "kopen op http://www.spillinghtemes.com/wordpress-themes/."
